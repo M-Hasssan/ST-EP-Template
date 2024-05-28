@@ -221,7 +221,73 @@ span {
     font-size: 16px;
 }
 
-.brain img {
-    height: 120vh;
-    width: 80vw;
+
+.vision h1  {
+    text-align: center;
+    font-size: 50pt;
+    font-family: noobra;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), RGB(64, 0, 165));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0 10px 0;
+
+}
+
+#mission {
+    text-align: center;
+    width: 40vw;
+    font-size: 20pt;
+    position: absolute;
+    left: 30vw;
+    font-family: noobra;
+}
+
+.vision h2 {
+position: absolute;
+top: 240vh;
+text-align: center;
+left: 20vw;
+font-size: 45pt;
+font-family: noobra;
+background: -webkit-linear-gradient(rgb(195, 0, 255), RGB(64, 0, 155));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#vis {
+    margin-top: 18px;
+    position: absolute;
+    top: 250vh;
+    width: 60vw;
+    font-family: noobra;
+    font-size: 15pt;
+    left: 30vw;
+}
+
+.vision h4 {
+    position: absolute;
+top: 290vh;
+text-align: center;
+left: 20vw;
+font-size: 45pt;
+font-family: noobra;
+background: -webkit-linear-gradient(rgb(195, 0, 255), RGB(64, 0, 155));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#mis {
+    margin-top: 18px;
+    position: absolute;
+    top: 300vh;
+    width: 60vw;
+    font-family: noobra;
+    font-size: 15pt;
+    left: 30vw;
+}
+
+#nestring {
+position: absolute;
+top: 300vh;
+left: 5vw;
 }
