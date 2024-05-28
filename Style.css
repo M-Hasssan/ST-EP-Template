@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: noobra;
+    src: url("./Poppins/Poppins-Bold.ttf");
+}
+
+.Nav {
+    height: 7vh;
+    width: 99%;
+    background-color: white;
+    border-radius: 100px;
+    border: 1px solid gainsboro;
+    margin-left: 8px;
+}
+
+.Nav ul {
+    display: flex;
+    float: right;
+    gap: 50px;
+    margin-right: 30px;
+    margin-top: 18px;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+.Nav a {
+    text-decoration: none;
+}
+
+.Nav img {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+#main-img {
+
+    height: 90vh;
+    width: 60vw;
+}
+
+.main p {
+    font-size: 45pt;
+    position: absolute;
+    bottom: 45vh;
+    left: 59vw;
+    width: 39vw;
+    font-family: noobra;
+    /* color: RGB(64, 0, 165); */
+    background: -webkit-linear-gradient(rgb(188, 12, 241), RGB(64, 0, 165));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    
+}
+
+span {
+    color: rgb(12, 201, 12);
+}
+
+#Sec-para {
+    font-size: 15pt;
+    position: absolute;
+    bottom: 15vh;
+    left: 59vw;
+    width: 35vw;
+    font-family: noobra;
+    /* color: RGB(64, 0, 165); */
+    background: -webkit-linear-gradient(rgb(188, 12, 241), RGB(64, 0, 165));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.post {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.post img {
+    height: 250px;
+    
+}
+
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3%;
+    height:500px;
+}
+
+.mainbox img {
+    height: 200px;
+    width: 250px;
+    
+}
+
+.firstbox {
+    color: antiquewhite;
+    background-color: transparent;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.secondbox {
+    color: antiquewhite;
+    background-color: transparent;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+
+
+
+.thridbox {
+    color: antiquewhite;
+    background-color: transparent;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.thridbox img {
+    width: 15vw;
+    height: 30vh;
+}
+
+
+.forthbox {
+    color: antiquewhite;
+    background-color: transparent;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.forthbox img {
+    width: 15vw;
+}
+
+
+.why {
+    color: antiquewhite;
+    background-color: transparent;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.why img {
+    width: 16vw;
+}
+
+
+.who {
+    color: antiquewhite;
+    background-color: transparent;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.who img {
+    width: 15vw;
+}
+
+
+.whom {
+    color: antiquewhite;
+    background-color: transparent;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.whom img {
+    width: 16vw;
+}
+
+
+.whose {
+    color: antiquewhite;
+    background: transparent;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.whose img {
+    height: 25vh;
+    width: 16vw;
+}
+
+.mainbox p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(13, 13, 144);
+    font-size: 16px;
+}
+
+.brain img {
+    height: 120vh;
+    width: 80vw;
+}
